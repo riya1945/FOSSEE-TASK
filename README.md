@@ -4,11 +4,11 @@ Python Screening Task 3: Evaluating Open Source Models for Student Competence An
 ## Overview
 This project will investigate whether open-source AI models can be adapted for analyzing student competence in Python learning. In particular, this research examines CodeT5, a Transformer-based model trained on (1) natural language and (2) source code and discusses how a Transformer-based model, such as CodeT5, can analyze Python written in a student's natural language and used to identify a gap in the students' research and to stimulate the students' learning to draw and inspire insights without directly providing solutions.
 
-## Paragraph 1
+## Approach
 Paragraph 1
 To assess open-source AI models for student competence analysis within Python, I looked at CodeT5, a Transformer model that was trained on both programming languages and natural languages. My idea was to see how the pre-existing skills of CodeT5 for code summarization, translation, and completion might be used to examine student written programs in Python. More specifically, I was interested in whether CodeT5 could offer a natural-language summary of student code, indicate missing logic or misunderstandings, and provide conceptual checkpoints that align with learning outcomes. The evaluation plan is simple - I will evaluate CodeT5 on a number of diverse student submissions (correct, partially correct, buggy) and see if CodeT5 offers insights to allow for meaningful reflection, without solving the task directly.
 
-## Paragraph 2
+## Reasoning
 The model's usability is evaluated on criteria like: (a) on generating useful feedback at a higher level rather than as syntax correction at a lower level, (b) on adapting to an educational prompt without fine-tuning the model, and (c) on producing outputs that can be interpreted by students and educators. Usability is verified through small experiments in which CodeT5 is prompted to provide a code logic summary or identify conceptual errors for beginner Python problems (loops, conditionals, functions). If the output indicates whether students can describe core concepts - not providing solutions - it's a good prototype for scalable, inexpensive, and student-centered competence evaluation.
 
 ## Reasoning
