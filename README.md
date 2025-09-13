@@ -5,7 +5,7 @@ Python Screening Task 3: Evaluating Open Source Models for Student Competence An
 This project will investigate whether open-source AI models can be adapted for analyzing student competence in Python learning. In particular, this research examines CodeT5, a Transformer-based model trained on (1) natural language and (2) source code and discusses how a Transformer-based model, such as CodeT5, can analyze Python written in a student's natural language and used to identify a gap in the students' research and to stimulate the students' learning to draw and inspire insights without directly providing solutions.
 
 ## Approach
-Paragraph 1
+
 To assess open-source AI models for student competence analysis within Python, I looked at CodeT5, a Transformer model that was trained on both programming languages and natural languages. My idea was to see how the pre-existing skills of CodeT5 for code summarization, translation, and completion might be used to examine student written programs in Python. More specifically, I was interested in whether CodeT5 could offer a natural-language summary of student code, indicate missing logic or misunderstandings, and provide conceptual checkpoints that align with learning outcomes. The evaluation plan is simple - I will evaluate CodeT5 on a number of diverse student submissions (correct, partially correct, buggy) and see if CodeT5 offers insights to allow for meaningful reflection, without solving the task directly.
 
 ## Reasoning
