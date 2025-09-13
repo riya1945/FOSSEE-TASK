@@ -21,8 +21,9 @@ By comparing outputs based on different student submissions of the same task—w
 3. Are we trading-off accuracy for interpretability or cost?
 More accurate outputs may come from more expensive fine-tuned models; lightweight models, i.e., CodeT5-small, could provide less nuance and may be cheaper; sometimes interpretability will trade off technical detail; we can find a balance.
 
-4. Why CodeT5?  What are the strengths and limitations? We select CodeT5 because it is trained on both natural language + code, able to summarize and translate, and is free in the Hugging Face. 
-
+4. Why CodeT5?  What are the strengths and limitations?
+   
+We select CodeT5 because it is trained on both natural language + code, able to summarize and translate, and is free in the Hugging Face. 
 Strengths: human-readable explanations; multi-task capabilities; open source.
 Limitations: sometimes ambiguous with logical errors; prompts must be very careful to avoid giving way to a solution.
 
@@ -35,8 +36,17 @@ Limitations: sometimes ambiguous with logical errors; prompts must be very caref
 ```bash
 npm install
 ```
-
+3. Run the script
+```
+python demo.py
+```
 ## References
 1. https://arxiv.org/abs/2109.00859
 2. https://www.salesforce.com/blog/codet5/
 3. https://huggingface.co/Salesforce/codet5-small
+
+### 👩‍💻 About the Creator
+**Name:** Riya Joshi
+**Background:** 3rd year Computer Science Student from Vellore Institute of Technology, Chennai
+
+
